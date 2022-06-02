@@ -7,7 +7,7 @@ function clean(){
 }
 function back(){
     var result = document.getElementById('resultado').innerHTML;
-    document.getElementById('resultado').innerHTML = result.substring(0, result.length-1);
+    document.getElementById('resultado').innerHTML = result.substring(0, result.length -1);
 }
 function calculate(){
     var result = document.getElementById('resultado').innerHTML;
